@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 10px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 1px;
+        }
+        nav{
+            background-color: rgb(68, 68, 68);
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow:4px 5px 7px 1px rgba(0, 0, 0, 0.474);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        } 
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+    </header> 
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícias sobre o</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum beatae molestias unde officia deleniti suscipit at veniam iusto neque atque eum doloribus, excepturi, quos repellendus iure modi! Deleniti, est.</p>
+                <article>
+                    <p>Artigo escrito por josé da silva</p>
+                </article>
+            </article>
+        </section>
+        <section>
+            
+        </section>
+    </main>  
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
